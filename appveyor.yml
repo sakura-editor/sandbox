@@ -14,3 +14,16 @@ build_script:
     echo PLATFORM        %PLATFORM%
 
     echo CONFIGURATION   %CONFIGURATION%
+
+    echo "test" > test.txt
+
+before_test:
+- cmd: >-
+    echo "before_test"
+
+test_script:
+- cmd: >-
+    echo "test_script"
+
+artifacts:
+- path: '*.txt'
