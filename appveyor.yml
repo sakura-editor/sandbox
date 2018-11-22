@@ -19,11 +19,11 @@ build_script:
 
 before_test:
 - cmd: >-
-    echo "before_test"
+    echo "before_test 1"
 
 test_script:
 - cmd: >-
-    echo "test_script"
+    echo "test_script 2"
 
 artifacts:
 - path: '*.txt'
