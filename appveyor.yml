@@ -24,6 +24,8 @@ before_test:
 test_script:
 - cmd: >-
     echo "test_script 2"
+    
+    exit /b 1
 
 artifacts:
 - path: '*.txt'
