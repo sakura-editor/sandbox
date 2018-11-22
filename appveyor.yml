@@ -17,7 +17,7 @@ build_script:
 
     echo "test" > test.txt
     
-    appveyor PushArtifact test.txt
+    appveyor PushArtifact *.txt
 
 before_test:
 - cmd: >-
