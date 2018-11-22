@@ -16,6 +16,8 @@ build_script:
     echo CONFIGURATION   %CONFIGURATION%
 
     echo "test" > test.txt
+    
+    appveyor PushArtifact test.txt
 
 before_test:
 - cmd: >-
