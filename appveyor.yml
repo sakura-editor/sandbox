@@ -14,3 +14,17 @@ build_script:
     echo PLATFORM        %PLATFORM%
 
     echo CONFIGURATION   %CONFIGURATION%
+
+    echo "test" > test.txt
+    
+    appveyor PushArtifact test.txt -FileName test-new.txt -DeploymentName "Deploy tag"
+
+before_test:
+- cmd: >-
+    echo "before_test 1"
+
+test_script:
+- cmd: >-
+    echo "test_script 2"
+    
+    exit /b 1
