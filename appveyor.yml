@@ -17,7 +17,7 @@ build_script:
 
     echo "test" > test.txt
     
-    appveyor PushArtifact *.txt
+    appveyor PushArtifact -FileName test.txt -DeploymentName "Deploy tag"
 
 before_test:
 - cmd: >-
