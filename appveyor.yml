@@ -28,6 +28,3 @@ test_script:
     echo "test_script 2"
     
     exit /b 1
-
-artifacts:
-- path: '*.txt'
