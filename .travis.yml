@@ -2,10 +2,13 @@ language: generic
 os: linux
 dist: trusty
 
-addons:
-  apt:
-    packages:
-      - cppcheck
+#addons:
+#  apt:
+#    packages:
+#      - cppcheck
+
+install: 
+  - sudo apt-get install -qq cppcheck
 
 script:
   - cppcheck --version
