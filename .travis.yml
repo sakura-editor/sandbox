@@ -1,0 +1,11 @@
+language: generic
+os: linux
+dist: trusty
+
+addons:
+  apt:
+    packages:
+      - cppcheck
+
+script:
+  - cppcheck --version
