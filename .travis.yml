@@ -16,4 +16,4 @@ addons:
 
 script:
   - cppcheck --version
-  - echo $(platform) $(configuration)
+  - echo ${platform} ${configuration}
