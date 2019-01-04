@@ -1,2 +1,2 @@
 echo test2
-exit /b 0
+exit /b 1
