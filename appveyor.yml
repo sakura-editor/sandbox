@@ -15,14 +15,21 @@ platform:
   - Win32
 
 build_script:
-  - cmd: |
-      echo off
-      echo PLATFORM        %PLATFORM%
-      echo CONFIGURATION   %CONFIGURATION%
-      if not defined SECURE_VAR1 echo SECURE_VAR1 is not defined
-      if not defined SECURE_VAR2 echo SECURE_VAR2 is not defined
-      test1.bat
+- cmd: >-
+    if not defined SECURE_VAR1 (
+       echo SECURE_VAR1 is not defined
+    )
 
-      test2.bat
+    echo test
 
-  - ps: Write-Host "script1"
+- cmd: |
+  echo off
+  echo PLATFORM        %PLATFORM%
+  echo CONFIGURATION   %CONFIGURATION%
+  if not defined SECURE_VAR1 echo SECURE_VAR1 is not defined
+  if not defined SECURE_VAR2 echo SECURE_VAR2 is not defined
+  test1.bat
+
+  test2.bat
+
+- ps: Write-Host "script1"
