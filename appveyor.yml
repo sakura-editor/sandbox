@@ -22,4 +22,5 @@ build_script:
     if not defined SECURE_VAR2 echo SECURE_VAR2 is not defined
     test1.bat
     test2.bat
-    @echo test3
+
+- ps: Write-Host "script1"
