@@ -17,7 +17,7 @@ platform:
 build_script:
 - cmd: >-
     if not defined SECURE_VAR1 (
-       echo SECURE_VAR1 is not defined
+        echo SECURE_VAR1 is not defined
     )
 
     echo test
