@@ -15,3 +15,5 @@ Markdownの参照形式によるリンクのテスト
 [sakura website]: https://sakura-editor.github.io/
 
 <!-- Markdownの参照形式によるリンク の定義終わり -->
+
+ISSUE Template のテストです。
