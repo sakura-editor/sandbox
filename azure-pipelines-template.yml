@@ -29,35 +29,35 @@ jobs:
   steps:
   - script: echo $(BuildPlatform)
   - script: echo $(Configuration)
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
-  - script: timeout /t 3 /nobreak
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
+  - script: timeout /t 3 || echo test
