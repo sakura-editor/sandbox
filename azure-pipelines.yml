@@ -22,6 +22,8 @@ trigger:
       - Jenkinsfile
 
 pr:
+  # https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?tabs=yaml&view=azure-devops#pr-triggers
+  autoCancel: false
   branches:
     include:
       - master
