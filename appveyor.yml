@@ -35,3 +35,5 @@ build_script:
 
     if not defined SECURE_VAR2 echo SECURE_VAR2 is not defined
 
+    echo test GitHub Notification
+    echo test GitHub Notification2
