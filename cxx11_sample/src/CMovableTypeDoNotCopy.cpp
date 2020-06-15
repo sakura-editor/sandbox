@@ -23,4 +23,7 @@ void useCMovableTypeDoNotCopy(void)
 		CMovableTypeDoNotCopy obj5 = std::move(obj1);
 
 	} // ←ここで、デストラクタが呼ばれる
+	
+	
+	printf("test\n");
 }
