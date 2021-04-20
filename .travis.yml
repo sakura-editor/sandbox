@@ -1,0 +1,19 @@
+language: generic
+os: linux
+dist: xenial
+
+matrix:
+  include:
+    - env: platform=Win32 configuration=Release
+    - env: platform=Win32 configuration=Debug
+    - env: platform=x64   configuration=Release
+    - env: platform=x64   configuration=Debug
+
+addons:
+  apt:
+    packages:
+      - cppcheck
+
+script:
+  - cppcheck --version
+  - echo ${platform} ${configuration}
